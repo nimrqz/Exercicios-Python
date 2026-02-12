@@ -3,8 +3,6 @@ a = float(a)
 b = float(b)
 c = float(c)
 delta = b**2-(4*a*c)
-print(delta)
-print(delta ** .5)
 if delta <= 0 or a==0:
     print("Impossivel calcular")
     exit()
