@@ -19,7 +19,7 @@ else:
     media_final = float(media_final)
     
     if media_final >= 5:
-        print("Aluno Aprovado.")
+        print("Aluno aprovado.")
     else:
         print("Aluno reprovado.")
     print(f"Media final: {media_final:.1f}")
