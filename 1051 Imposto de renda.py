@@ -21,4 +21,3 @@ if sal >= 45000.00:
     salnovo = (sal*0.28)
     print(f"R$ {salnovo}")
     exit()
-    
