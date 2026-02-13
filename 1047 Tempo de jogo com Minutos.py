@@ -16,4 +16,7 @@ else:
 if minutos == 60:
     minutos = 0
 
+if horas == 24 and minutos > 1:
+    horas = 0
+    
 print(f"O JOGO DUROU {horas} HORA(S) E {minutos} MINUTOS(S)")
