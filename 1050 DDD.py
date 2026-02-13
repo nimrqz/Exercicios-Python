@@ -25,4 +25,4 @@ if entrada == 31:
     print("Belo Horizonte")
     exit()
 else:
-    print("DDD nao cadastrado")
+    print ("DDD nao cadastrado")

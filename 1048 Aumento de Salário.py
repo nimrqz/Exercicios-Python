@@ -23,4 +23,4 @@ if sal > 2000.00:
     
 print(f"Novo salario: {novosal:.2f}")
 print(f"Reajuste ganho: {ganho:.2f}")
-print(f"Em percentual: {porcent:.0f} % ")
+print(f"Em percentual: {porcent:.0f} %")

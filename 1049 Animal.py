@@ -13,3 +13,15 @@ if p1 == ("vertebrado"):
             print("homem")
         elif p3 == ("herbivoro"):
             print("vaca")
+
+if p1 == ("invertebrado"):
+    if p2 == ("inseto"):
+        if p3 == ("hematofago"):
+            print("pulga")
+        elif p3 == ("herbivoro"):
+            print("lagarta")
+    elif p2 == ("anelideo"):
+        if p3 == ("hematofago"):
+            print("sanguessuga")
+        elif p3 == ("onivoro"):
+            print("minhoca")
