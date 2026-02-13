@@ -7,4 +7,4 @@ if b > a:
 else:
     horas = (24 - a) + b
 
-print(f"O  JOGO DUROU {horas} HORAS(S)")
+print(f"O JOGO DUROU {horas} HORA(S)")
