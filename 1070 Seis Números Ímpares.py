@@ -6,3 +6,4 @@ while impares < 6:
         print(x)
         impares += 1
     x += 1
+    
