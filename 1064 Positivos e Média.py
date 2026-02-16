@@ -6,4 +6,5 @@ for i in range(6):
     if valor > 0:
         positivos += 1
         
+        
 print(f"{positivos} valores positivos")
