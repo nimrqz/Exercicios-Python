@@ -4,24 +4,15 @@ b = int(b)
 c = int(c)
 d = int(d)
 
-if c > a:
-    horas = c - a
-else:
-    horas = (24 - a) + c
-    
-if d > b:
-    minutos = d - b
-else:
-    minutos = (60 - b) + c
-if minutos == 60:
-    minutos = 0
+inicio = a * 60 + b
+fim = c * 60 + d
 
-<<<<<<< HEAD
-if horas == 24 and minutos > 1:
-    horas = 0
-    
-print(f"O JOGO DUROU {horas} HORA(S) E {minutos} MINUTOS(S)")
-=======
+total = fim - inicio
 
-print(f"O JOGO DUROU {horas} HORA(S) E {minutos} MINUTOS(S)")
->>>>>>> 8b197cc2d08ee1b219e1e0e740c5b6837265b537
+if total <0:
+    total += 24*60
+
+h = total // 60
+m = total % 60
+     
+print(f"O JOGO DUROU {h} HORA(S) E {m} MINUTO(S)")
